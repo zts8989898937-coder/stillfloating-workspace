@@ -9,3 +9,7 @@
 - `ws.css` / `ws.js`：土星星图视觉样式、交互筛选（`⌘K`）、实时状态刷新逻辑。
 - `bay.svg` / `map.svg`：舱室与星图矢量图形资源。
 - `quota.php` / `cf.php` / `status.php`：后端模型配额、Codeforces 提交状态与站点健康接口。
+
+## 公开版本说明
+
+部署参数使用示例值。公开范围见 [PUBLIC_SCOPE.md](PUBLIC_SCOPE.md)，通用框架和路线见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) 与 [docs/ROADMAP.md](docs/ROADMAP.md)。
