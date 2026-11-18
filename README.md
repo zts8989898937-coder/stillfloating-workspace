@@ -10,6 +10,18 @@
 - `bay.svg` / `map.svg`：舱室与星图矢量图形资源。
 - `quota.php` / `cf.php` / `status.php`：后端模型配额、Codeforces 提交状态与站点健康接口。
 
-## 公开版本说明
+## 本地预览
 
-部署参数使用示例值。公开范围见 [PUBLIC_SCOPE.md](PUBLIC_SCOPE.md)，通用框架和路线见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) 与 [docs/ROADMAP.md](docs/ROADMAP.md)。
+安装 PHP CLI 后，可以导出一份静态预览：
+
+```bash
+SF_WS_PREVIEW=1 php index.php > preview.html
+```
+
+预览文件和样式、脚本、图形资源放在同一目录。接入实时接口前，需配置自己的私有授权文件和后端服务。
+
+## 2026-11-18 公开版更新
+
+将服务链接、账号和后端配置路径改为示例值，保留页面、鉴权逻辑与状态接口供参考。 [查看更新提交](https://github.com/zts8989898937-coder/stillfloating-workspace/commit/462293f7f8fef3ead196bf80fe9bb7b606cc4437)
+
+[公开范围](PUBLIC_SCOPE.md) · [架构说明](docs/ARCHITECTURE.md) · [后续路线](docs/ROADMAP.md)
